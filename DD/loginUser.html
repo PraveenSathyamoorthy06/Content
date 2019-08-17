@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>User Login Page</title>
+</head>
+
+<body>
+	<header>
+		<div class="topnav">
+			<a class="active" href="#home">Home</a>
+			<a href="#about">About</a>
+			<a href="#contact">Contact</a>
+			<div class="input-group-home">
+				<button type="submit" class="btnh" name="login_btn"
+					onclick="location.href='loginUser.html'">Login</button>
+			</div>
+			<div class=search-container>
+				<input type="text" placeholder="search your Mentor" name="search">
+				<button type="submit"><i class="fa fa-search"></i></button>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn">Technology
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="#">Internet of Things</a>
+					<a href="#">Artifcial Intelligence</a>
+					<a href="#">Cloud Computing</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="header">
+		<h2>SignIn as User</h2>
+	</div>
+	<form method="post" action="#">
+		<button type="button" class="btn" id="user" onclick="location.href='loginUser.html'"
+			style="background-color:chocolate;">User</button>
+		<button type="button" class="btn" id="mentor" onclick="location.href='loginMentor.html'">Mentor</button>
+		<div class="input-group">
+			<label>Email or Username</label>
+			<input type="text" name="username" value="">
+		</div>
+		<div class="input-group">
+			<label>Password</label>
+			<input type="password" name="password_1">
+		</div>
+		<a class="link" href="#">forgot password? </a>
+		<div class="input-group">
+			<button type="submit" class="btn" name="login_btn">Login</button>
+		</div>
+		<p>
+			Create an account? <a class="link" href="registerUser.html">Sign Up</a>
+		</p>
+	</form>
+	<footer class="footer">
+		<p>&copy; 2019 Mendor On Demand</p>
+	</footer>
+</body>
+
+</html>

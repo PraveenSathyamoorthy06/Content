@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Mentor Login Page</title>
+</head>
+
+<body>
+	<div class="header">
+		<h2>SignIn as Mentor</h2>
+	</div>
+	<form method="post" action="#">
+		<button type="button" class="btn" id="user" onclick="location.href='loginUser.html'">User</button>
+		<button type="button" class="btn" id="mentor" onclick="location.href='loginMentor.html'"
+			style="background-color:chocolate;">Mentor</button>
+		<div class="input-group">
+			<label>Email or Username</label>
+			<input type="text" name="username" value="">
+		</div>
+		<div class="input-group">
+			<label>Password</label>
+			<input type="password" name="password_1">
+		</div>
+		<a class="link" href="#">forgot password? </a>
+		<div class="input-group">
+			<button type="submit" class="btn" name="login_btn">Login</button>
+		</div>
+		<p>
+			Create an account? <a class="link" href="registerMentor.html">Sign Up</a>
+		</p>
+	</form>
+	<footer class="footer">
+		<p>&copy; 2019 Mendor On Demand</p>
+	</footer>
+</body>
+
+</html>
